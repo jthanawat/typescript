@@ -40,4 +40,10 @@ const logWeather = ({
   console.log(weather);
 };
 
+//  ES2015
+// const logWeather = ({date, weather}) => {
+//   console.log(date);
+//   console.log(weather);
+// }
+
 logWeather(todaysWeather);
